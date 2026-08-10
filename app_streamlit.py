@@ -269,6 +269,9 @@ def get_inventario():
 def get_compras():
     return st.session_state.data.get('compras', [])
 
+def get_compras_mayoreo():
+    return st.session_state.data.get('compras_mayoreo', [])
+
 def get_ventas():
     return st.session_state.data.get('ventas', [])
 
